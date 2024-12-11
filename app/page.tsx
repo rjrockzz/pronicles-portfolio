@@ -12,7 +12,7 @@ export default function Home() {
 
       <header className={styles.header}>
         <h1>Welcome to Pronicles Portfolio</h1>
-        <p>Hi, I'm a Data Engineer with expertise in big data solutions, data pipelines, and cloud technologies.</p>
+        <p>Hi, I&apos;m a Data Engineer with expertise in big data solutions, data pipelines, and cloud technologies.</p>
       </header>
 
       <section className={styles.section}>
@@ -44,7 +44,7 @@ export default function Home() {
       </section>
 
       <footer className={styles.footer}>
-        <p>Contact me at <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+      <p>Contact me at <a href="mailto:your-email@example.com">rjrockzz@protonmail.com</a></p>
       </footer>
     </div>
   )
