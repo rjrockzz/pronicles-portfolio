@@ -1,0 +1,93 @@
+/* Home.module.css */
+.container {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .header p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .section {
+    padding: 4rem 2rem;
+    background-color: #f7f7f7;
+  }
+  
+  .h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4a90e2;
+    margin-bottom: 2rem;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    line-height: 1.6;
+  }
+  
+  .list li strong {
+    font-weight: 600;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .header {
+      padding: 2rem 1rem;
+    }
+  
+    .header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .header p {
+      font-size: 1.2rem;
+    }
+  
+    .section {
+      padding: 3rem 1rem;
+    }
+  
+    .footer {
+      padding: 1.5rem;
+    }
+  }
